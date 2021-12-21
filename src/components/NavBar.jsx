@@ -127,7 +127,7 @@ const NavBar = () => {
         console.log(open)
   },[open])
   return (
-    <AppBar>
+    <AppBar position="fixed">
         <Toolbar className={classes.toolBar}>
 
             <div className={classes.navbar_left}>
